@@ -1,8 +1,10 @@
 Basic information about programming languagei traits that can be used to create a phylogenetic tree showing language similarity (based on some trait), such as the one below.
 
-Add new language trait files to lang-info
+Blog post [discussing the issues and decisions.](//https://shape-of-code.com/2022/04/24/programming-language-similarity-based-on-their-traits/)
 
-To regenerate the lang.csv file (read the generate the trees), run:
+New language trait files go in: lang-info
+
+To regenerate the lang.csv file (read by the code that generates the trees), run:
 
 mkcsv.sh > lang-info/lang.csv
 
@@ -10,6 +12,6 @@ The R code contains some consistency checks on the file contents, e.g., look for
 
 If a new trait is created, the mkcsv.awk file needs to be updated to recognise it.
 
-![Language similarity based on their keywords](https://www.shape-of-code.com/images/binop-phylo.png)
+![Language similarity based on their keywords](https://www.shape-of-code.com/images/keyword-phylo.png)
 
-[Blog post discussing the issues and decisions.](https://shape-of-code.com)
+![and based on their binary operators](https://www.shape-of-code.com/images/keyword-phylo.png)
