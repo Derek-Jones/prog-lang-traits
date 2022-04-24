@@ -14,4 +14,6 @@ If a new trait is created, the mkcsv.awk file needs to be updated to recognise i
 
 ![Language similarity based on their keywords](https://www.shape-of-code.com/images/keyword-phylo.png)
 
-![and based on their binary operators](https://www.shape-of-code.com/images/keyword-phylo.png)
+and
+
+![based on their binary operators](https://www.shape-of-code.com/images/keyword-phylo.png)
