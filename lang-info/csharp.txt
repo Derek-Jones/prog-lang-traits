@@ -1,0 +1,154 @@
+#
+# 23 Apr 22
+
+wikipedia
+general-purpose
+multi-paradigm 
+
+
+keyword
+
+abstract
+as
+base
+bool
+break
+byte
+case
+catch
+char
+checked
+class
+const
+continue
+decimal
+default
+delegate
+do
+double
+else
+enum
+event
+explicit
+extern
+false
+finally
+fixed
+float
+for
+foreach
+goto
+if
+implicit
+in
+int
+interface
+internal
+is
+lock
+long
+namespace
+new
+null
+object
+operator
+out
+override
+params
+private
+protected
+public
+readonly
+ref
+return
+sbyte
+sealed
+short
+sizeof
+stackalloc
+static
+string
+struct
+switch
+this
+throw
+true
+try
+typeof
+unit
+ulong
+unchecked
+unsafe
+ushort
+using
+virtual
+void
+volatile
+while
+
+ternary-operator
+
+:?	2
+
+binary-operator
+
+*	12
+/	12
+%	12
+
++	11
+-	11
+
+<<	10
+>>	10
+
+<	9
+>	9
+<=	9
+>=	9
+isas	9
+
+==	8
+!=	8
+
+&	7
+
+^	6
+
+|	5
+
+&&	4
+
+||	3
+
+=	1
+*=	1
+/=	1
+%=	1
++=	1
+-=	1
+<<=	1
+>>=	1
+&=	1
+^=	1
+|=	1
+
+unary-operator
+
++	13
+-	13
+!	13
+~	13
+++	13
+--	13
+
+function-definition
+
+overloaded
+arguments-type-checked
+default-value
+named-parameter
+pass-by-value
+pass-by-reference
+
+

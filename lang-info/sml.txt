@@ -1,0 +1,86 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+general-purpose
+modular
+functional
+
+keyword
+
+abstype
+and
+andalso
+as
+case
+do
+datatype
+else
+end
+eqtype
+exception
+fn
+fun
+functor
+handle
+if
+in
+include
+infix
+infixr
+let
+local
+nonfix
+of
+op
+open
+orelse
+raise
+rec
+sharing
+sig
+signature
+struct
+structure
+then
+type
+val
+where
+with
+withtype
+while
+
+binary-operator
+
+* 	6	left
+/ 	6	left
+div 	6	left
+mod 	6	left
+
++ 	5	left
+- 	5	left
+^ 	5	left
+
+:: 	4	right
+@ 	4	right
+
+= 	3	left
+<> 	3	left
+> 	3	left
+>= 	3	left
+< 	3	left
+<= 	3	left
+
+:= 	2	left
+o 	2	left
+
+before 	1	left 
+
+function-definition
+
+overloaded
+arguments-number-checked
+pass-by-value
+
+

@@ -1,0 +1,120 @@
+#
+# 23 Apr 22
+
+wikipedia
+structured
+statically typed
+imperative
+object-oriented
+high-level
+
+keyword
+
+abort 
+abs 
+accept 
+access 
+all 
+and 
+array 
+at 
+begin 
+body 
+case 
+constant 
+declare 
+delay 
+delta 
+digits 
+do 
+else 
+elsif 
+end 
+entry 
+exception 
+exit 
+for 
+function 
+generic 
+goto 
+if 
+in 
+is 
+limited 
+loop 
+mod 
+new 
+not 
+null 
+of 
+or 
+others 
+out 
+package 
+pragma 
+private 
+procedure 
+raise 
+range 
+record 
+rem 
+renames 
+return 
+reverse 
+select 
+separate 
+subtype 
+task 
+terminate 
+then 
+type 
+use 
+when 
+while 
+with 
+xor
+
+binary-operator
+
+** 	6
+
+* 	5
+/ 	5
+mod 	5
+rem 	5
+
++ 	3
+- 	3
+& 	3
+
+= 	2
+/= 	2
+< 	2
+<= 	2
+> 	2
+>= 	2
+
+and 	1
+# and_then	1	# technically not an operator
+or 	1
+# or_else 	1	# technically not an operator
+xor 	1
+
+# in	# technically not an operator
+# not_in	# technically not an operator
+
+unary-operator
+
+abs 	6
+not 	6
+
++ 	4
+-	4
+
+function-definition
+
+arguments-type-checked
+pass-by-value
+pass-by-reference
+pass-by-out
+

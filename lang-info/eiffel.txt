@@ -1,0 +1,119 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+object-oriented
+
+keyword # https://www.eiffel.org/doc/eiffel/Eiffel_programming_language_reserved_words
+
+across
+agent
+alias
+all
+and
+as
+assign
+attribute
+check
+class
+convert
+create
+Current
+debug
+deferred
+do
+else
+elseif
+end
+ensure
+expanded
+export
+external
+False
+feature
+from
+frozen
+if
+inherit
+implies
+inspect
+invariant
+like
+local
+loop
+not
+note
+obsolete
+old
+once
+only
+or
+redefine
+rename
+require
+rescue
+Result
+retry
+select
+separate
+then
+True
+TUPLE
+undefine
+until
+variant
+Void
+xor
+
+binary-operator # https://rosettacode.org/wiki/Operator_precedence
+
+. 	13	# Dot notation, in qualified and non-object calls 	
+
+^ 	10	right-to-left	# Power operator 	Right-to-left
+
+* 	9	left-to-right	# Multiplication 	Left-to-right
+/ 	9	left-to-right	# Division
+// 	9	left-to-right	# Integer division
+\\ 	9	left-to-right	# Integer remainder (modulo)
+
++ 	8	left-to-right	# Addition 	Left-to-right
+- 	8	left-to-right	# Subtraction
+
+.. 	7	# To define an interval 	
+
+= 	6	# Equality (reference) 	
+/= 	6	# Inequality (reference)
+~ 	6	# Equality (object, uses x.is_equal(y) assuming x /= Void)
+/~ 	6	# Inequality (object, uses x.is_equal(y) assuming x /= Void)
+< 	6	# Less than
+> 	6	# Greater than
+<= 	6	# Less than or equal
+>= 	6	# Greater than or equal
+
+and 	5	left-to-right	# Conjunctive Boolean operator (strict) 	Left-to-right
+andthen 	5	left-to-right	# Conjunctive Boolean operator (semistrict — short-circuit)
+
+or 	4	left-to-right	# Disjunctive Boolean operator (strict) 	Left-to-right
+orelse 	4	left-to-right	# Disjunctive Boolean operator (semistrict — short-circuit)
+xor 	4	left-to-right	# Exclusive disjunctive Boolean operator
+
+implies 	3	left-to-right	# Implicative Boolean operator (( a implies b ) = ( not a or else b )) 	Left-to-right
+
+[] 	2	# Manifest tuple delimiter 	
+
+# ; 	1	# Optional semicolon between an assertion clause and the next 
+
+unary-operator
+
+old 	12	# Used in postconditions to denote the value an expression had before routine entry 	
+not 	12	# Unary negation
++ 	12	# Unary plus
+- 	12	# Unary minus
+
+function-definition
+
+arguments-type-checked
+pass-by-value
+
+

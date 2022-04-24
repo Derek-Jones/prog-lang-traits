@@ -1,0 +1,94 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+general-purpose
+compiled
+imperative
+
+keyword
+
+assign
+backspace
+block
+call
+close
+common
+continue
+data
+dimension
+do
+else
+end
+endfile
+endif
+entry
+equivalence
+external
+format
+function
+goto
+if
+implicit
+inquire
+intrinsic
+open
+parameter
+pause
+print
+program
+read
+return
+rewind
+rewrite
+save
+stop
+subroutine
+then
+write
+
+binary-operator
+
+** 	11	right-to-left	# Numeric
+
+* 	10	left-to-right	# Numeric
+/ 	10	left-to-right	# Numeric
+
++ 	8	left-to-right	# Binary numeric operators
+- 	8	left-to-right	# Binary numeric operators
+
+.eq. 	5	left-to-right	# Relational
+.ge. 	5	left-to-right	# Relational
+.gt. 	5	left-to-right	# Relational
+.le. 	5	left-to-right	# Relational
+.lt. 	5	left-to-right	# Relational
+.ne. 	5	left-to-right	# Relational
+== 	5	left-to-right	# Relational
+>= 	5	left-to-right	# Relational
+> 	5	left-to-right	# Relational
+<= 	5	left-to-right	# Relational
+< 	5	left-to-right	# Relational
+/= 	5	left-to-right	# Relational
+
+.and. 	3	left-to-right	# Logical
+& 	3	left-to-right	# Logical
+
+.or. 	2	left-to-right	# Logical
+| 	2	left-to-right	# Logical
+
+.eqv. 	1	left-to-right	# Logical
+.neqv. 	1	left-to-right	# Logical
+
+unary-operator
+
+.not.	12
++	9
+=	9
+
+function-definition
+
+arguments-not-checked
+pass-by-reference
+
+

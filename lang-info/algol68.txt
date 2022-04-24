@@ -1,0 +1,157 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+imperative
+
+keyword
+mode
+op
+prio
+proc
+flex
+heap
+loc
+long
+ref
+short
+bits
+bool
+bytes
+char
+compl
+int
+real
+sema
+string
+void
+channel
+file
+format
+struct
+union
+at
+either
+is
+isnt   # is not
+of
+true
+false
+empty
+nil
+skip
+co
+comment
+pr
+pragmat
+case
+in
+ouse
+in
+out
+esac
+for
+from
+to
+by
+while
+do
+od
+if
+then
+elif
+then
+else
+fi
+par
+begin
+end
+# go to
+goto
+exit
+
+binary-operator
++* 9
+i 9
+
+SHL 8
+SHR 8
+** 8
+up 8
+down 8
+lwb 8
+upb 8
+
+* 7
+/ 7
+% 7
+over 7
+%* 7
+mod 7
+elem 7
+
+- 6
++ 6
+
+< 5
+lt 5
+<= 5
+le 5
+>= 5
+ge 5
+> 5
+gt 5
+
+eq 4
+= 4
+ne 4
+~= 4
+/= 4
+
+& 3
+and 3
+
+or 2
+
+minusab 1
+plusab 1
+timesab 1
+divab 1
+overab 1
+modab 1
+plusto 1
+-:= 1
++:= 1
+*:= 1
+/:= 1
+%:= 1
+%*:= 1
++=: 1
+
+unary-operator
+not 10
+~ 10
+up 10
+down 10
+lwb 10
+upb 10
+- 10
+abs 10
+arg 10
+bin 10
+entier 10
+leng 10
+level 10
+odd 10
+repr 10
+round 10
+shorten 10
+
+function-definition
+
+arguments-type-checked
+pass-by-value
+pass-by-reference
+
+

@@ -1,0 +1,152 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+is-a
+
+keyword
+
+abstract
+arguments
+await
+boolean
+break
+byte
+case
+catch
+char
+class
+const
+continue
+debugger
+default
+delete
+do
+double
+else
+enum
+eval
+export
+extends
+false
+final
+finally
+float
+for
+function
+goto
+if
+implements
+import
+in
+instanceof
+int
+interface
+let
+long
+native
+new
+null
+package
+private
+protected
+public
+return
+short
+static
+super
+switch
+synchronized
+this
+throw
+throws
+transient
+true
+try
+typeof
+var
+void
+volatile
+while
+with
+yield
+
+ternary-operator
+
+?: 	4 	right
+
+binary-operator
+
+.	17	left
+[]	17	left
+new	17	left
+()	17	left
+
+**	15	right
+
+*	14	left
+/	14	left
+%	14	left
+
++	13	left
+-	13	left
+
+<< 	12	left
+>> 	12	left
+>>> 	12	left
+
+< 	11	left
+<= 	11	left
+> 	11	left
+>= 	11	left
+in	11	left
+instanceof	11	left
+
+==	10	left
+!=	10	left
+===	10	left
+!==	10	left
+
+&	9	left
+
+^	8	left
+
+|	7	left
+
+&&	6	left
+
+||	5	left
+
+=	3	right
++=	3	right
+-=	3	right
+*=	3	right
+/=	3	right
+%=	3	right
+<<= 	3	right
+>>= 	3	right
+>>>= 	3	right
+&=	3	right
+^=	3	right
+|=	3	right
+
+yield	2	left
+
+","	1	left
+
+unary-operator
+
+++ 	16	right
+-- 	16	right
+— 	16	right
+! 	16	right
+typeof	16	right
+
+
+function-definition
+
+named-parameter
+scalar-by-value
+object-by-reference
+

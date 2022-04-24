@@ -1,0 +1,138 @@
+#
+# 23 Apr 22
+
+wikipedia
+high-level
+general-purpose
+interpreted
+dynamic
+
+keyword
+
+and 
+cmp 
+continue 
+CORE 
+__DATA__ 
+do 
+else 
+elsif 
+__END__ 
+eq 
+exp 
+__FILE__ 
+for 
+foreach 
+ge 
+gt 
+if 
+le 
+__LINE__ 
+lock 
+lt 
+m 
+ne 
+no 
+or 
+package 
+__PACKAGE__ 
+q 
+qq 
+qr 
+qw
+qx
+s
+sub
+tr
+unless
+until
+while
+xor
+y
+
+binary-operator
+
+->	21	left
+
+**	19	right
+
+~	18	right
+\	18	right
+
+=~	17	left
+!~	17	left
+
+*	16	left
+/	16	left
+%	16	left
+x	16	left
+
++	16	left
+-	16	left
+.	15	left
+
+<<	14	left
+>>	14	left
+
+<	13	nonassoc
+>	13	nonassoc
+<=	13	nonassoc
+>=	13	nonassoc
+lt	13	nonassoc
+gt	13	nonassoc
+le	13	nonassoc
+ge	13	nonassoc
+
+==	12	nonassoc
+!=	12	nonassoc
+<=>	12	nonassoc
+eq	12	nonassoc
+ne	12	nonassoc
+cmp	12	nonassoc
+
+&	11	left
+
+|	10	left
+^	10	left
+
+&&	9	left
+
+||	8	left
+
+..	7	nonassoc
+...	7	nonassoc
+
+?:	6	right
+
+=	5	right
++=	5	right
+-=	5	right
+*=	5	right
+/=	5	right
+%=	5	right
+**=	5	right
+
+","	4	left
+=>	4	left
+
+and	2	left
+
+or	1	left
+xor	1	left
+
+unary-operator
+not	3	right
++	18	right
+-	18	right
+!	18	right
+++	20	nonassoc
+--	20	nonassoc
+
+function-definition
+
+arguments-not-checked
+variadic-arguments
+default-value
+pass-by-reference
+
+

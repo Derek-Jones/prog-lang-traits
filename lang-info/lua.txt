@@ -1,0 +1,76 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+lightweight
+high-level
+multi-paradigm
+
+keyword
+
+and
+break
+do
+else
+elseif
+end
+false
+for
+function
+if
+in
+local
+nil
+not
+or
+repeat
+return
+then
+true
+until
+while
+
+binary-operator
+
+or 	1	left
+
+and 	2	left
+
+<	3	left
+<=	3	left
+>	3	left
+>=	3	left
+~=	3	left
+== 	3	left
+
+.. 	4	right
+
++	5	left
+- 	5	left
+
+*	6	left
+/	6	left
+% 	6	left
+
+^ 	8	right
+
+[]	9	left
+.	9	left
+()	9	left
+:	9	left
+
+unary-operator
+
+not	7
+-	7
+# 	7
+
+function-definition
+
+named-parameter
+variadic-arguments
+scalar-by-value
+object-by-reference
+
+

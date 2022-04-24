@@ -1,0 +1,77 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+imperative
+procedural
+
+keyword
+array 	# multiple elements with the same name
+begin 	# start of a block of code
+break 	# exit a loop
+case 	# select a particular segement of code to execute based on a value
+const 	# declare an identifier with a fixed value, or a variable with an initialized value
+div 	# integer divide operator
+do 	# used to indicate start of a loop
+downto 	# used in a for loop to indicate the index variable is decremented
+else 	# used in if statement to provide an execution path when the if test fails
+end 	# end of a block of code, a record or certain other constructs
+file 	# external data structure, typically stored on disc
+for 	# loop used to increment or decrement a control variable
+function 	# define start of a routine that returns a result value
+goto 	# used to exit a segment of code and jump to another point
+if 	# test a condition and perform a set of instructions based on the result
+in 	# identifies elements in a collection
+label 	# defines the target jump point for a goto
+mod 	# operator used to return the remainder of an integer division
+nil 	# pointer value indicating the pointer does not contain a value
+not 	# boolean operator that negates the result of a test
+of 	# defines the characteristics of a variable
+on 	# defines an exception handling statement in the Except part of a Try statement
+packed 	# indicates the elements of an array are to use less space (this keyword is primarily for compatibility with older programs as packing of array elements is generally automatic)
+procedure 	# define start of a routine that does not return a result value
+program 	# defines start of an application. This keyword is usually optional.
+record 	# group a series of variables under a single name
+repeat 	# loop through a section of code through an until statement as long as the result of the test is true
+set 	# group a collection
+then 	# indicates start of code in an if test
+to 	# indicates a for variable is to be incremented
+type 	# declares kinds of records or new classes of variables
+until 	# indicates end test of a repeat statement
+var 	# declare variables
+while 	# test a value and if true, loop through a section of code
+with 	# reference the internal variables within a record without having to refer to the record itself
+
+binary-operator
+
+*	3
+/	3
+div	3
+mod	3
+and	3
+
++	2
+-	2
+or	2
+
+=	1
+<>	1
+<	1
+>	1
+<=	1
+>=	1
+in	1
+
+unary-operator
+
+not	4
+
+
+function-definition
+
+arguments-type-checked
+pass-by-value
+pass-by-reference
+
+

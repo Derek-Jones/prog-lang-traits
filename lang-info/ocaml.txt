@@ -1,0 +1,134 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+general-purpose
+multi-paradigm 
+
+keyword # https://ocaml.org/manual/lex.html
+
+and
+as
+asr
+assert
+begin
+class
+constraint
+do
+done
+downto
+else
+end
+exception
+external
+false
+for
+fun
+function
+functor
+if
+in
+include
+inherit
+initializer
+land
+lazy
+let
+lor
+lsl
+lsr
+lxor
+match
+method
+mod
+module
+mutable
+new
+nonrec
+object
+of
+open
+or
+private
+rec
+sig
+struct
+then
+to
+true
+try
+type
+val
+virtual
+when
+while
+with
+
+binary-operator
+
+#	14	left
+
+()	13	left
+
+**	12	right
+lsl	12	right
+lsr	12	right
+asr	12	right
+
+*	11	left
+/	11	left
+%	11	left
+mod	11	left
+land	11	left
+lor	11	left
+lxor	11	left
+
++	10	left
+-	10	left
+
+::	9	right
+
+@	8	right
+^	8	right
+
+=	7	left
+<	7	left
+>	7	left
+|	7	left
+# &	7	left
+$	7	left
+!=	7	left
+
+&	6	right
+&&	6	right
+
+or	5	right
+||	5	right
+
+# ,	4
+
+<-	3	right
+:=	3	right
+
+;	1	right
+
+
+unary-operator
+
+# .	15
+# .(	15
+# .[	15
+# .{	15
+
+-	13
+-.	13
+
+if	2
+
+function-definition
+
+arguments-type-checked
+named-parameter
+pass-by-value
+

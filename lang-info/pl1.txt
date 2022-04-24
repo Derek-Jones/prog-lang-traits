@@ -1,0 +1,196 @@
+#
+# 24 Apr 22
+
+wikipedia
+procedural
+imperative 
+
+keyword # http://homepages.cs.ncl.ac.uk/cliff.jones/publications/VDL-TRs/TR25.084.pdf
+
+# IBM LABORATORY VIENNA, Austria, TR 25.084 28 June 1968
+# CONCRETE SYNTAX OF PL/I by K. ALBER, P.OLIVA, G. URSCHLER
+
+abnormal
+aligned
+allocate
+area
+automatic
+backwards
+based
+begin
+binary
+bit
+buffered
+builtin
+by
+call
+cell
+character
+check
+close
+column
+complex
+condition
+controlled
+conversion
+copy
+data
+decimal
+declare
+defined
+delay
+delete
+direct
+display
+do
+edit
+else
+end
+endfile
+endpage
+entry
+environment
+error
+event
+exclusive
+exit
+external
+file
+finish
+fixed
+fixedoverfloh
+float
+format
+free
+from
+generic
+get
+go
+goto
+ident
+if
+ignore
+in
+initial
+input
+internal
+into
+irreducible
+key
+keyed
+keyfrom
+keyto
+label
+like
+line
+linesize
+list
+locate
+name
+nocheck
+noconversion
+nofixedoverflow
+nolock
+nooverflow
+normal
+nosize
+nostringrange
+nosubscriptrange
+nounderflow
+nozerodivide
+offset
+on
+open
+options
+output
+overflow
+packed
+page
+pagesize
+picture
+pointer
+position
+print
+priortty
+procedure
+put
+read
+real
+record
+recursive
+reducible
+reply
+return
+returns
+revert
+rewrite
+secondary
+sequential
+set
+sets
+signal
+size
+skip
+snap
+static
+stop
+stream
+string
+stringrange
+subscriptrange
+system
+task
+then
+title
+to
+transmit
+unbuffered
+undefinedfile
+underflow
+unlock
+update
+uses
+varying
+wait
+while
+write
+x
+zerodivide
+
+binary-operator
+
+**	7
+
+*	6
+/	6
+
+||	5
+
++	4
+-	4
+
+>	3
+>=	3
+=	3
+<	3
+<=	3
+!>	3
+!=	3
+!<	3
+
+&	2
+
+|	1
+
+unary-operator
+
++	8
+-	8
+!	8
+
+function-definition
+
+arguments-not-checked
+pass-by-value
+pass-by-reference
+

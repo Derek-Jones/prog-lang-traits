@@ -1,0 +1,90 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+general-purpose
+statically-typed
+purely functional
+
+keyword
+
+as
+case
+class
+data
+default
+deriving
+do
+else
+family
+forall
+foreign
+hiding
+if
+import
+in
+infix
+infixl
+infixr
+instance
+let
+mdo
+module
+newtype
+of
+proc
+qualified
+rec
+then
+type
+where
+
+binary-operator
+
+. 	11	right
+
+^	10	right
+^^	10	right
+** 	10	right
+
+*	9	left
+/	9	left
+quot	9	left
+rem	9	left
+div	9	left
+mod 	9	left
+
++	8	left
+- 	8	left
+
+: 	7	right
+
+==	6
+/=	6
+<	6
+<=	6
+>=	6
+>	6
+
+&& 	5	right
+
+|| 	4	right
+
+>>	2	left
+>>= 	2	left
+
+=<< 	2	right
+
+$	1	right
+$!	1	right
+seq	1	right 
+
+unary-operator
+
+function-definition
+
+arguments-type-checked
+pass-by-value
+
+

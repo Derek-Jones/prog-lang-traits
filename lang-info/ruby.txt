@@ -1,0 +1,134 @@
+
+#
+# 23 Apr 22
+
+
+wikipedia
+interpreted
+high-level
+general-purpose
+
+keyword
+
+__ENCODING__
+__LINE__
+__FILE__
+BEGIN
+END
+alias
+and
+begin
+break
+case
+class
+def
+defined?
+do
+else
+elsif
+end
+ensure
+false
+for
+if
+in
+module
+next
+nil
+not
+or
+redo
+rescue
+retry
+return
+self
+super
+then
+true
+undef
+unless
+until
+when
+while
+yield
+
+ternary-operator
+
+?: 	6	right	# Conditional
+
+binary-operator
+
+** 	19	right	# Exponentiation
+
+* 	16	left	# Multiplication, division, modulo (remainder)
+/ 	16	left	# Multiplication, division, modulo (remainder)
+% 	16	left	# Multiplication, division, modulo (remainder)
+
++ 	15	left	# Addition (or concatenation), subtraction
+- 	15	left	# Addition (or concatenation), subtraction
+
+<< 	14	left	# Bitwise shift-left (or append), bitwise shift-right
+>> 	14	left	# Bitwise shift-left (or append), bitwise shift-right
+
+& 	13	left	# Bitwise AND
+
+| 	12	left	# Bitwise OR, bitwise XOR
+^ 	12	left	# Bitwise OR, bitwise XOR
+
+< 	11	left	# Ordering
+<= 	11	left	# Ordering
+>= 	11	left	# Ordering
+> 	11	left	# Ordering
+
+== 	10	# # Equality, pattern matching, comparison
+=== 	10	# # Equality, pattern matching, comparison
+!= 	10	# # Equality, pattern matching, comparison
+=~ 	10	# # Equality, pattern matching, comparison
+!~ 	10	# # Equality, pattern matching, comparison
+<=> 	10	# # Equality, pattern matching, comparison
+
+&& 	9	left	# Boolean AND
+
+|| 	8	left	# Boolean OR
+
+.. 	7	n 	# Range creation and Boolean flip-flops
+... 	7	n 	# Range creation and Boolean flip-flops
+ 
+rescue 	5	left	# Exception-handling modifier
+
+= 	4	right	# Assignment
+**= 	4	right	# Assignment
+*= 	4	right	# Assignment
+/= 	4	right	# Assignment
+%= 	4	right	# Assignment
++= 	4	right	# Assignment
+-= 	4	right	# Assignment
+<<= 	4	right	# Assignment
+>>= 	4	right	# Assignment
+&&= 	4	right	# Assignment
+&= 	4	right	# Assignment
+^= 	4	right	# Assignment
+
+and 	10	left	# Boolean AND, Boolean OR (low precedence) 
+or 	10	left	# Boolean AND, Boolean OR (low precedence) 
+
+unary-operator
+
+! 	20	right	# Boolean NOT, bitwise complement, unary plus
+~ 	20	right	# Boolean NOT, bitwise complement, unary plus
++ 	20	right	# Boolean NOT, bitwise complement, unary plus
+
+- 	18	right	# Unary minus (define with -@)
+
+defined? 	3	n 	# Test variable definition and type
+
+not 	2	right	# Boolean NOT (low precedence)
+
+function-definition
+
+arguments-number-checked
+named-parameter
+default-value
+pass-by-value
+
+

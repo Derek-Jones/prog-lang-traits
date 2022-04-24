@@ -1,0 +1,174 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+general-purpose
+scripting
+
+keyword
+abstract
+and
+array
+as
+break
+callable
+case
+catch
+class
+clone
+const
+continue
+declare
+default
+die
+do
+echo
+else
+elseif
+empty
+enddeclare
+endfor
+endforeach
+endif
+endswitch
+endwhile
+eval
+exit
+extends
+final
+finally
+fn
+for
+foreach
+from
+function
+global
+goto
+__halt_compiler
+if
+implements
+include
+include_once
+instanceof
+insteadof
+interface
+isset
+list
+match
+namespace
+new
+or
+print
+private
+protected
+public
+readonly
+require
+require_once
+return
+static
+switch
+throw
+trait
+try
+unset
+use
+var
+while
+xor
+yield
+
+ternary-operator
+?: 	6	non-associative
+
+binary-operator
+** 	22	right
+
+instanceof 	20	left
+
+*  	18	left
+/ 	18	left
+% 	18	left
+
++ 	17	left
+- 	17	left
+# . 	17	left # prior to php 8.0
+
+<< 	16	left
+>> 	16	left
+
+. 	15	left # as of php 8.0
+
+< 	14	non-associative
+<= 	14	non-associative
+> 	14	non-associative
+>= 	14	non-associative
+
+== 	13	non-associative
+!= 	13	non-associative
+=== 	13	non-associative
+!== 	13	non-associative
+<> 	13	non-associative
+<=> 	13	non-associative
+
+& 	12	left
+
+^ 	11	left
+
+| 	10	left
+
+&& 	9	left
+
+|| 	8	left
+
+?? 	7	right
+
+= 	5	right
++= 	5	right
+-= 	5	right
+*= 	5	right
+**= 	5	right
+/= 	5	right
+.= 	5	right
+%= 	5	right
+&= 	5	right
+|= 	5	right
+^= 	5	right
+<<= 	5	right
+>>= 	5	right
+??= 	5	right
+
+and 	3	left
+
+xor 	2	left
+
+or 	10	left
+
+unary-operator
+clone	23
+new	23
+
++	21
+-	21
+++	21
+--	21
+~	21
+@	21
+
+! 	19
+
+yield	4
+yield	4
+print	4
+
+function-definition
+
+overloaded
+arguments-not-checked
+default-value
+named-parameter
+variadic-arguments
+pass-by-value
+pass-by-reference
+

@@ -1,0 +1,166 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+general-purpose
+
+weight
+
+keyword
+auto
+break
+case
+char
+const
+continue
+default
+do
+double
+else
+enum
+extern
+float
+for
+goto
+if
+int
+long
+register
+return
+short
+signed
+sizeof
+static
+struct
+switch
+typedef
+union
+unsigned
+void
+volatile
+while
+
+comment
+to-end-of-line
+start
+end
+
+white-space
+significant
+free-form
+line-continuation
+backslash
+
+identifier
+case-significant
+characters-significant
+
+literal
+integer-decimal
+integer-hexadecimal
+integer-octal
+integer-character
+floating-point
+string
+
+control-flow
+{ }
+switch
+goto
+break
+continue
+if
+else
+for
+while
+do
+
+expression
+infix
+left-associative
+
+ternary-operator
+
+?: 	2	# Ternary conditional (see ?:) 	Right-to-left
+
+binary-operator
+
+# () 	16	# Function call
+[] 	16	# Array subscripting
+. 	16	# Element selection by reference
+-> 	16	# Element selection through pointer
+
+* 	13	# Multiplication 	Left-to-right
+/ 	13	# Division
+% 	13	# Modulo (remainder)
+
++ 	12	# Addition 	Left-to-right
+- 	12	# Subtraction
+
+<< 	11	# Bitwise left shift 	Left-to-right
+>> 	11	# Bitwise right shift
+
+< 	9	# Less than 	Left-to-right
+<= 	9	# Less than or equal to
+> 	9	# Greater than
+>= 	9	# Greater than or equal to
+
+== 	8	# Equal to 	Left-to-right
+!= 	8	# Not equal to
+
+& 	7	# Bitwise AND 	Left-to-right
+
+^ 	6	# Bitwise XOR (exclusive or) 	Left-to-right
+
+| 	5	# Bitwise OR (inclusive or) 	Left-to-right
+
+&& 	4	# Logical AND 	Left-to-right
+
+|| 	3	# Logical OR 	Left-to-right
+
++= 	2	# Assignment by sum
+-= 	2	# Assignment by difference
+*= 	2	# Assignment by product
+/= 	2	# Assignment by quotient
+%= 	2	# Assignment by remainder
+<<= 	2	# Assignment by bitwise left shift
+>>= 	2	# Assignment by bitwise right shift
+&= 	2	# Assignment by bitwise AND
+^= 	2	# Assignment by bitwise XOR
+|= 	2	# Assignment by bitwise OR
+
+","       1	# comma operator
+
+unary-operator
+++ 	15	# Prefix increment 	Right-to-left
+-- 	15	# Prefix decrement
++ 	15	# Unary plus
+- 	15	# Unary minus
+! 	15	# Logical NOT
+~ 	15	# Bitwise NOT (One's Complement)
+	  	# (type)	15	# Type cast
+* 	15	# Indirection (dereference)
+& 	15	# Address-of
+sizeof 	15	# Sizeof
+_Alignof 	15	# Alignment requirement (since C11)
+
+declaration
+struct
+union
+int
+float
+enum
+*
+statement
+semicolon
+file-import
+#include
+
+function-definition
+
+arguments-not-checked
+arguments-type-checked
+variadic-arguments
+pass-by-value
+

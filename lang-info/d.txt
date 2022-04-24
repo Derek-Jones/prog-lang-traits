@@ -1,0 +1,229 @@
+#
+# 23 Apr 22
+
+
+wikipedia
+multi-paradigm
+system
+
+keyword # https://dlang.org/spec/lex.html
+abstract
+alias
+align
+asm
+assert
+auto
+
+body
+bool
+break
+byte
+
+case
+cast
+catch
+char
+class
+const
+continue
+creal
+
+dchar
+debug
+default
+delegate
+delete
+deprecated
+do
+double
+
+else
+enum
+export
+extern
+
+false
+final
+finally
+float
+for
+foreach
+foreach_reverse
+function
+
+goto
+
+if
+immutable
+import
+in
+inout
+int
+interface
+invariant
+is
+
+lazy
+long
+
+macro
+mixin
+module
+
+new
+nothrow
+null
+
+out
+override
+
+package
+pragma
+private
+protected
+public
+pure
+
+real
+ref
+return
+
+scope
+shared
+short
+static
+struct
+super
+switch
+synchronized
+
+template
+this
+throw
+true
+try
+typeid
+typeof
+
+ubyte
+uint
+ulong
+union
+unittest
+ushort
+
+version
+void
+
+wchar
+while
+with
+
+__FILE__
+__FILE_FULL_PATH__
+__MODULE__
+__LINE__
+__FUNCTION__
+__PRETTY_FUNCTION__
+
+__gshared
+__traits
+__vector
+__parameters
+
+ternary-operator # https://rosettacode.org/wiki/Operator_precedence
+
+?: 	4	right
+
+binary-operator
+
+# ! 	17	# Top-level ',' in rhs expression treated specially. Cannot be chained
+
+=> 	16	# Not a real operator, occurs twice, this is binding power to the left.
+
+. 	15	# ( and [ treat top-level ',' in rhs expression specially and require balanced ) or ] in order to be completed
+# () 	15	# ( and [ treat top-level ',' in rhs expression specially and require balanced ) or ] in order to be completed
+[] 	15	# ( and [ treat top-level ',' in rhs expression specially and require balanced ) or ] in order to be completed
+
+^^ 	14	# Right
+
+* 	12	# 
+/ 	12	# 
+% 	12	# 
+
++ 	11	#
+- 	11	#
+~ 	11	# Binary '~' is the concatenation operator
+
+<< 	10	# 
+>> 	10	# 
+>>> 	10	# 
+
+== 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!= 	7	# Unordered with respect to bitwise operators, cannot be chained.
+> 	7	# Unordered with respect to bitwise operators, cannot be chained.
+< 	7	# Unordered with respect to bitwise operators, cannot be chained.
+>= 	7	# Unordered with respect to bitwise operators, cannot be chained.
+<= 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!> 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!< 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!>= 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!<= 	7	# Unordered with respect to bitwise operators, cannot be chained.
+<> 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!<> 	7	# Unordered with respect to bitwise operators, cannot be chained.
+<>= 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!<>= 	7	# Unordered with respect to bitwise operators, cannot be chained.
+in 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!in 	7	# Unordered with respect to bitwise operators, cannot be chained.
+is 	7	# Unordered with respect to bitwise operators, cannot be chained.
+!is 	7	# Unordered with respect to bitwise operators, cannot be chained.
+
+& 	9	# Unordered with respect to comparison operators
+
+^ 	8	# Unordered with respect to comparison operators
+
+| 	7	# Unordered with respect to comparison operators
+
+&& 	6	# Short-circuit
+
+|| 	5	# Short-circuit
+
+= 	3	right
+-= 	3	right
++= 	3	right
+<<= 	3	right
+>>= 	3	right
+>>>= 	3	right
+/= 	3	right
+*= 	3	right
+%= 	3	right
+^= 	3	right
+^^= 	3	right
+~= 	3	right
+
+# => 	2	# Not a real operator, occurs twice, this is binding power to the right 	
+
+"," 	1	# Not to be confused with other uses of ',', though their precedence is the same
+
+# .. 	1	# Not a real operator, hardwired into syntax at specific points
+
+unary-operator
+&	13
+++	13
+--	13
+*	13
++	13
+-	13
+!	13
+~	13
+
+function-definition
+
+overloaded
+arguments-type-checked
+named-parameter
+variadic-arguments
+pass-by-value
+pass-by-reference
+pass-by-out
+
