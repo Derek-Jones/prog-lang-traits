@@ -1,6 +1,6 @@
 Basic information about programming languagei traits that can be used to create a phylogenetic tree showing language similarity (based on some trait), such as the one below.
 
-Blog post [discussing the issues and decisions.](//https://shape-of-code.com/2022/04/24/programming-language-similarity-based-on-their-traits/)
+Blog post [discussing the issues and decisions.](https://shape-of-code.com/2022/04/24/programming-language-similarity-based-on-their-traits/)
 
 New language trait files go in: lang-info
 
